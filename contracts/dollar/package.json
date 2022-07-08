@@ -14,7 +14,7 @@
   },
   "scripts": {
     "clean": "hardhat clean",
-    "build": "TS_NODE_TRANSPILE_ONLY=1 yarn hardhat compile",
+    "build": "npm install && TS_NODE_TRANSPILE_ONLY=1 yarn hardhat compile",
     "test": "hardhat test",
     "test:coverage": "hardhat coverage",
     "lint": "run-s lint:* build",
