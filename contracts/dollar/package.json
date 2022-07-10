@@ -14,7 +14,7 @@
   },
   "scripts": {
     "clean": "hardhat clean",
-    "build": "TS_NODE_TRANSPILE_ONLY=1 yarn hardhat compile",
+    "build": "yarn hardhat compile",
     "test": "hardhat test",
     "test:coverage": "hardhat coverage",
     "lint": "run-s lint:* build",
@@ -108,7 +108,6 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.4",
-    "hardhat": "^2.8.4",
     "hardhat-deploy": "^0.10.5",
     "hardhat-gas-reporter": "^1.0.7",
     "husky": "^7.0.4",
@@ -125,5 +124,8 @@
     "typechain": "^7.0.0",
     "typescript": "^4.5.5",
     "usb": "^2.1.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.10.0"
   }
 }
